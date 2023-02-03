@@ -24,8 +24,7 @@ $bnr = $_GET["bnr"];
 echo "<h1>Lecker iBrot-Bestellung</h1>";
 echo "<h2>Bestellnummer: $bnr </h2>";
 // SQL Server Extension Sample Code:
-$connectionInfo = array("UID" => "say", "pwd" => 'Azure4bschule', "Database" => "ibrot", "LoginTimeout" => 30,
-"Encrypt" => 1, "TrustServerCertificate" => 0);
+$connectionInfo = array("UID" => "say", "pwd" => 'Azure4bbschule', "Database" => "ibrot", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
 $serverName = "tcp:say-ibrot-dbsrv.database.windows.net,1433";
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 /* Set up and execute the query. */

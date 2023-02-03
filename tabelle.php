@@ -21,7 +21,7 @@ padding: 0.5em 1em;
 <?php //Start PHP
 //Parameter holen und ausgeben
 $bnr = $_GET["bnr"];
-echo "<h1>iBrot-Bestellung</h1>";
+echo "<h1>Lecker iBrot-Bestellung</h1>";
 echo "<h2>Bestellnummer: $bnr </h2>";
 // SQL Server Extension Sample Code:
 $connectionInfo = array("UID" => "say", "pwd" => 'Azure4bschule', "Database" => "ibrot", "LoginTimeout" => 30,
